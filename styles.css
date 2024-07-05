@@ -115,7 +115,8 @@ body {
     height: 75%;
     top: 20%;
     left: 0;
-    padding: 20px 100px;
+    margin: 5% 0;
+    padding: 2% 10% 2% 10%;
     background: transparent;
     color: #fff;
     display: flex;
@@ -123,6 +124,23 @@ body {
     font-weight: 500;
     font-size: large;
     text-decoration: none;
+}
+
+.content .text .p1 {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    top: 15%;
+    font-size: large;
+    padding: 20px 0 0 0;
+}
+
+.content .text .p2 {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    top: auto;
+    font-size: large;
 }
 
 .text .legenda {
@@ -166,8 +184,33 @@ body {
     color: #000;
 }
 
-@media screen {
-    * {
-        width: auto;
-    }
+.contato {
+    position: fixed;
+    top: 95%;
+    padding: 10px;
+    width: 100%;
+    height: 20px;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    left: 75px;
+}
+
+.contato p {
+    position: absolute;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 200px;
 }
